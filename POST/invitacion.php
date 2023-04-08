@@ -24,12 +24,12 @@ $fecha =    $_POST['fecha'];
     
     <main>
         <img src="https://images.unsplash.com/photo-1564986021890-6f721f19c210?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA2Mjc1MDk&ixlib=rb-4.0.3&q=85" alt="">
-        <h1><? echo $nombre1; ?> & <? echo $nombre2; ?></h1>
-        <h2><? echo $frase; ?></h2>
-        <p>El Próximo Día <? echo $fecha; ?>, <? echo $nombre1; ?> y <? echo $nombre2; ?> celebrarán una ceremonia nupcial en <? echo $lugar; ?></p>
+        <h1><?php echo $nombre1; ?> & <?php echo $nombre2; ?></h1>
+        <h2><?php echo $frase; ?></h2>
+        <p>El Próximo Día <?php echo $fecha; ?>, <?php echo $nombre1; ?> y <?php echo $nombre2; ?> celebrarán una ceremonia nupcial en <?php echo $lugar; ?></p>
      
         <p>Esperando su asistencia y regalos de los caros, muy cordianlmente:</p>
-        <p><? echo $nombre1; ?> y <? echo $nombre2; ?></p>
+        <p><?php echo $nombre1; ?> y <?php echo $nombre2; ?></p>
     </main>
 
 </body>
