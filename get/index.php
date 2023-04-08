@@ -10,7 +10,7 @@
     <br>
     <label for="tel"> Teléfono:</label>
 
-    <input id="tel" type="text" name="telefono">
+    <input id="tel" type="number" name="telefono">
     <br><br>
     <input type="submit" value="Entrar en mini-Amazon">
 

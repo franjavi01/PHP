@@ -25,16 +25,17 @@
 
 <?php
 $nombre = $_GET["nombre"];
-$nombreAnim =  "<span class='bonito'>".$nombre."</span>";
+$nombreAnim =  "<div class='bonito'>".$nombre."</div>";
+$telefono = $_GET["telefono"];
 ?>
 
-<h1>Bienvenida <?echo $nombreAnim;?></h1>
+<h1>Bienvenid@ <?php echo $nombreAnim;?></h1>
 
 
-<p>Tu teléféfono es el <?php echo $_GET["telefono"]?> </p>
-<p>Hola <?echo $nombreAnim;?>, bienvenida.</p>
+<p>Tu teléféfono es el <?php echo $telefono ?> </p>
+<p>Hola <?php echo $nombreAnim;?>, bienvenid@.</p>
 <p>Estamos encantados de tenerte aquí.</p>
-<p>Esta semana <?echo $nombreAnim;?> hemos preprado unas ofertas especiales para ti.</p>
+<p>Esta semana <?php echo $nombreAnim;?> hemos preprado unas ofertas especiales para ti.</p>
 
 
 <?php
@@ -43,7 +44,7 @@ $nombreAnim =  "<span class='bonito'>".$nombre."</span>";
         echo "<p class='noalumno'>Vente pal curso ho! a aprender PHP y comer bizcocho</p>";
     }
     else{
-        echo "<p class='alumno'> dejard de comer bizcocho y practicar PHP</p>";
+        echo "<p class='alumno'> dejad de comer bizcocho y practicar PHP</p>";
     }
 
 
