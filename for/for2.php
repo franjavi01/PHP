@@ -11,7 +11,7 @@
  
 
 <ul>
-<?  
+<?php  
 
 /* VALORES MINI-BASE DE DATOS*/
 //Valores a cambiar en caso de necesidad
