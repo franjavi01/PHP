@@ -18,13 +18,10 @@
         <ol class="archivos">
             <li><a href="./echo/">echo</a></li>
             <li><a href="./funciones/">funciones</a></li>
-
             <li><a href="./if">if</a></li>
             <li><a href="./for">for</a></li>
-            <li><a href="./GET">get</a></li>
+            <li><a href="./GET">GET</a></li>
             <li><a href="./POST">POST</a></li>
-            <li><a href="./ejemplo">ejemplo</a></li>
-            <li><a href="./ejemplo">ejemplo</a></li>
         </ol>
     </main>
 
