@@ -29,7 +29,7 @@ echo "la cantidad de alumnos hoy es: ".count($alumnos);
 ?>
 
 <ul>
-<?  
+<?php  
 //array multidimensional
 $alumnos2 = [
     ["frank",   "santos",   "gijon",    "001.jpg"],
