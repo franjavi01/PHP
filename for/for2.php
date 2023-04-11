@@ -9,10 +9,13 @@
 </head>
 <body>
  
-
 <ul>
+<<<<<<< HEAD
 <?php  
 
+=======
+<?  
+>>>>>>> 6f902ac2aeda9c14bf956bf7144199e7b2644f0f
 /* VALORES MINI-BASE DE DATOS*/
 //Valores a cambiar en caso de necesidad
 //Se ponen aquí arriba para que estén más a mano
@@ -52,8 +55,6 @@ for ($i = 0; $i<count($alumnos2); $i++) {
     echo "<p>".$alumnos2[$i]['lugar']."</p>";
     echo "</li>";
    }
-
-
 ?>
 </ul>
 </body>
