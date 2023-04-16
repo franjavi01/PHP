@@ -10,28 +10,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <header>
-        <h1>Indice de contenidos de clase de PHP</h1>
-        <h2>Listado de aprendizaje y sufrimiento con Miguel Esteban</h2>
-    </header>
-
-    <main>
-        <ol class="archivos">
-            <li><a href="./echo/">echo</a></li>
-            <li><a href="./funciones/">funciones</a></li>
-            <li><a href="./if">if</a></li>
-            <li><a href="./for">for</a></li>
-            <li><a href="./GET">GET</a></li>
-            <li><a href="./POST">POST</a></li>
-        </ol>
-    </main>
-
-    <footer>
-        <p>Dicampus <?php echo date('Y');?></p>
-    </footer>
-</body>
-=======
   <h1>Mi Listado de archivos PHP</h1>
 
 
@@ -45,7 +23,6 @@ $excluir = array('.', '..', '.git','.gitattributes','README.md', 'index.php'); /
 echo '<p class="ruta">'.$dir.'</p>';
 ?>
 
->>>>>>> 6f902ac2aeda9c14bf956bf7144199e7b2644f0f
 
 <button onclick="cambiarVista()">Cambiar Vista</button>
 <ul class="grid" id="archivos">
