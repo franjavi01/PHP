@@ -17,7 +17,7 @@
 
 echo '<h1>scandir();</h1>';
 
-echo '<ul class="flex">'
+echo '<ul class="flex">';
 
 $dir = 'archivos/css'; // Reemplaza con la ruta al directorio que deseas listar
 $archivos = scandir($dir);
@@ -31,7 +31,7 @@ foreach ($archivos as $archivo) {
   }
 }
 
-echo:'</ul>';
+echo'</ul>';
 
 
 ?>
